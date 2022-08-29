@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+}
+.formSection{
+    display: flex;
+    justify-content: center;
+}
+.searchInput{
+    padding: 12px;
+    width: 25%;
+    border-radius: 30px;
+}
+.searchBtn{
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: aqua;
+    font-size: 17px;
+    cursor: pointer;
+}
+.results{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 35px;
+}
+
+.image-result{
+    width: 100%;
+    border-radius: 10px;
+    margin: 7px 0 7px;
+}
+.image-card{
+    padding: 30px;
+    cursor: pointer;
+}
+.image-location{
+    color: rgb(161, 161, 161);
+}
