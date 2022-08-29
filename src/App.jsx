@@ -27,7 +27,7 @@ function App() {
   return (
     <SRLWrapper>
       <>
-        <h1 className='title'>📷 React Image Search with Unsplash API</h1>
+        <h1 className='title'>📷 Image Search with Unsplash</h1>
         <form className='formSection'>
           <input
             type="text"

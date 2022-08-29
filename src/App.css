@@ -37,3 +37,24 @@
 .image-location{
     color: rgb(161, 161, 161);
 }
+/* Responsive site */
+@media only screen and (max-width: 501px) {
+    .title{
+        font-size: 27px;
+    }    
+    .formSection > input{
+        width: 50%;
+        font-size: 15px;
+    }
+    .formSection > button {
+        font-size: 15px;
+    }
+    .results{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0;
+    }
+    .card > a >span> .resultsImage {
+        width: 93%!important;
+    }
+}
